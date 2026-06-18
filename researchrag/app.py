@@ -194,12 +194,12 @@ with st.sidebar:
     selected_model = st.selectbox(
         "LLM Model (via Groq)",
         options=[
-            "deepseek-r1-distill-llama-70b",
             "llama-3.3-70b-versatile",
-            "mixtral-8x7b-32768",
+            "llama3-70b-8192",
+            "gemma2-9b-it"
         ],
         index=0,
-        help="DeepSeek-R1 provides superior reasoning for gap analysis. Llama 3.3 is great for general drafting."
+        help="Select the generation model. Llama 3.3 70B is currently the best available on Groq."
     )
     
     temperature = st.slider(
