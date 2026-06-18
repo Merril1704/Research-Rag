@@ -108,7 +108,3 @@ For a comprehensive comparison on why this system outperforms standard chat inte
 - **LLM Engine:** Groq API (Llama-3.3-70B, Gemma2)
 - **Evaluation:** RAGAS, Langchain ecosystem
 
----
-
-## 🤝 Contributing
-Contributions are welcome! If you're adding new features like web-search augmentation or integration with reference managers (Zotero/Mendeley), please open an issue first to discuss.
