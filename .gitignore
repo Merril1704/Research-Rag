@@ -1,1 +1,19 @@
 Docs/
+
+# Environment
+.env
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Data & artifacts
+data/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

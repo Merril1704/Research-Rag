@@ -1,0 +1,37 @@
+# ResearchRAG Dependencies (Python 3.12)
+# Pinned versions for langchain ecosystem compatibility
+
+# PDF parsing
+PyMuPDF>=1.24.0
+
+# Chunking
+langchain-text-splitters==0.2.4
+
+# Embeddings
+sentence-transformers>=3.0.0
+
+# Vector indexing
+faiss-cpu>=1.8.0
+
+# LLM generation (Groq - primary)
+groq>=0.9.0
+
+# LLM generation (OpenAI-compatible)
+openai>=1.30.0,<2.0.0
+
+# Frontend
+streamlit>=1.35.0
+
+# --- Langchain ecosystem (pinned together) ---
+langchain==0.2.17
+langchain-core==0.2.43
+langchain-community==0.2.19
+langchain-openai==0.1.25
+langchain-groq==0.1.10
+
+# Evaluation
+ragas==0.2.6
+
+# Config & utilities
+python-dotenv>=1.0.0
+numpy>=1.26.0,<2.0

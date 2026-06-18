@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "researchrag"
+version = "0.1.0"
+description = "Modular dense RAG system for academic literature analysis"
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+include = ["researchrag*"]
