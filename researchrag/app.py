@@ -196,7 +196,8 @@ with st.sidebar:
         options=[
             "llama-3.3-70b-versatile",
             "llama3-70b-8192",
-            "gemma2-9b-it"
+            "gemma2-9b-it",
+            "openai/gpt-oss-120b"
         ],
         index=0,
         help="Select the generation model. Llama 3.3 70B is currently the best available on Groq."
